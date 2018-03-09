@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallet.coin.mota.motacoinwallet.MineFragment"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agita Para Minar"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+</LinearLayout>
